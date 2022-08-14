@@ -1,9 +1,17 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif; */
-
-h1 {
-  font-family: "Roboto", sans-serif;
+/* background: #E5E5E5; */
+body {
+  background-color: #1B1B1B;
 }
-p {
-  font-family: "Montserrat", sans-serif;
+.header1 {
+  background: url(img/bg.png);
+  font-family: 'Roboto', sans-serif; 
+  text-align: center;
+  color: white;
+  }
+.gallery {
+  text-align: center;
+  margin: 30px 0px;
+  
 }
