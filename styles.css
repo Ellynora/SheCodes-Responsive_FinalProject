@@ -28,12 +28,17 @@ html, body {
   height: 100%;
   line-height: 1;
   font-size: 16px;
-}
-body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #ffff;
   background-color: #1B1B1B;
-  text-align: center;
 }
-h2 {
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+/* ...................................... */
+/* h2 {
   font-size: 24px;
   letter-spacing: 10%;
   line-height: 28.13px;
@@ -44,8 +49,70 @@ h1 {
 p {
   font-size: 18px;
   line-height: 30px;
+} */
+._container {
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  box-sizing: content-box;
 }
-.header1 {
-  background-image: url(img/bg.png);
+/* ............Navbar............................................ */
+.header {
+/* position: absolute; */
+width: 100%;
+left: 0;
+top: 0;
+z-index: 50;
+}
+.header__container {
+  display: flex;
+  min-height: 102px;
+  align-items: center;
+  top: 48px;
+  /* background: #202020; */
+}
+
+ .header__menu {
+  margin: 0px 0px 0px 50%;
+}
+@media (max-width: 992px) {
+  .header__menu {
+    margin: 0px 0px 0px 25%;
+  }
+}
+@media (max-width: 767px) {
+  .header__menu {
+    margin: 0px 0px 0px 15%;
+  }
+  .header__logo {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+}
+@media (max-width: 479px) {
+  .header__menu {
+    margin: 0px 0px 0px 10%;
+  }
+}
+.header__logo {
+  margin: 20px 0px 20px 0px;
+  padding-left: 50px;
+}
+.menu {
+
+}
+.menu__list {
+  padding-top: 20px;
+  flex-wrap: wrap;
+  display: flex;
+}
+.menu__item {
+}
+.menu__item:not(:last-child) {
+  margin: 0px 29px 0px 0px;
+}
+.menu__link {
   color: #ffff;
+  line-height: 177%;
+  font-weight: 500px;
 }
