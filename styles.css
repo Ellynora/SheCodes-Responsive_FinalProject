@@ -259,6 +259,12 @@ z-index: 50;
   
 }
 /* ............FOOTER.......................... */
-.footer {
-
+ .social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer .social-icons a {
+  color: #FFFFFF;
+  margin: 1.5%;
 }
