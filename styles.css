@@ -52,18 +52,27 @@ html, body {
 }
 /* ...................................... */ 
 h2 {
+  position: relative;
+  width: 508px;
+  height: 28px;
+  left: calc(50% - 508px/2);
   text-transform: uppercase;
   font-size: 24px;
   letter-spacing: 10%;
   font-weight: 700;
 }
 h1 {
+  position: relative;
   text-transform: uppercase;
   font-size: 72px;
   line-height: 84px;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 10%;
+  width: 595px;
+  height: 84px;
+  left: calc(50% - 595px/2 + 0.5px);
+  
 }
 
 ._container {
@@ -150,7 +159,8 @@ z-index: 50;
     font-size: 18px;
   }
   .main-block__text {
-    font-size: 12px;
+    width: 320px !important;
+    left: calc(50% - 320px/2) !important;
   }
 }
 
