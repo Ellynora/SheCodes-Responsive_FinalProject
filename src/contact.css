@@ -1,0 +1,65 @@
+/* .............HEADER................... */
+.header {
+    background: #282323;
+    position: absolute;
+    height: 118px;
+    left: -73px;
+    top: -73px;
+}
+/* ........MAIN.......................... */
+.page_container {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+    width: 352.36px;
+    left: 36%;
+    top: 30%;
+
+}
+._contactpage {
+    position: absolute;
+    width: 584px;
+    height: 84px;
+    left: 23.4%;
+    top: 77px;
+
+}
+.subtittle {
+    color: #F65282;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 102.5%;
+    text-transform: uppercase;
+}
+.info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 187.5%;
+}
+@media (max-width: 992px) {
+    .last {
+        width: 50%;
+    }
+  }
+  @media (max-width: 767px) {
+    
+  }
+  @media (max-width: 479px) {
+    
+  }
+
+/* ........FOOTER....................... */
+.footer {
+    height: 20%;
+    margin: 0% 5.3% 3.5% 0%;
+    }
+    a {
+        color: white;
+    }
+    a:hover {
+        color: #F65282;
+    }
