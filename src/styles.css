@@ -204,7 +204,7 @@ z-index: 50;
     padding: 0px 10px 20px 10px !important;
   }
   .gallery-title {
-    font-size: 54px;
+    font-size: 48px;
   }
   h1 {
     font-size: 24px;
@@ -307,7 +307,7 @@ a:hover {
   display: flex; 
   justify-content: space-around;
   align-items: center;
-  gap: 70%;
+  gap: 20%;
 }
 .footer__logo {
   width: 153.36px ;
