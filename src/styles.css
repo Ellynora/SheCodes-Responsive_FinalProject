@@ -113,6 +113,13 @@ z-index: 50;
       padding-top: 5%;
       padding-bottom: 25%;
     }
+    .footer__logo {
+      width: 15% !important;
+      height: 15% !important;
+  }
+  .rights {
+      font-size: 14px;
+  }
 }
 @media (max-width: 767px) {
   .header__menu {
@@ -135,6 +142,7 @@ z-index: 50;
     padding-top: 5%;
     padding-bottom: 25%;
   }
+ 
 }
 @media (max-width: 479px) {
   .header__menu {
@@ -196,6 +204,13 @@ z-index: 50;
     width: 320px !important;
     left: calc(50% - 320px/2) !important;
   }
+  .footer__logo {
+    width: 25%;
+    height: 25%;
+}
+.rights {
+    font-size: 12px;
+}
 }
 
 .main-block__container {
@@ -273,4 +288,8 @@ footer a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+}
+.footer__logo {
+  width: 153.36px ;
+  height: 25.55px ;
 }
