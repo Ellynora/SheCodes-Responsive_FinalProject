@@ -24,7 +24,6 @@
     position: absolute;
     width: 584px;
     height: 84px;
-    left: 23.4%;
     top: 77px;
 
 }
@@ -41,15 +40,22 @@
     line-height: 187.5%;
 }
 @media (max-width: 992px) {
-    ._last {
-        text-align: center;
+    
+    .page_container {
+        left: 27%;
+    }
+    .page_container {
+        left: 29%;
     }
   }
   @media (max-width: 767px) {
     
-    ._last {
-        text-align: center;
-    }
+   ._contactpage {
+    left: 38%;
+   }
+   .page_container {
+    left: 25%;
+}
   }
   @media (max-width: 479px) {
     
