@@ -41,9 +41,8 @@
     line-height: 187.5%;
 }
 @media (max-width: 992px) {
-    
-    
-
+    ._last {
+        text-align: center;
     }
   }
   @media (max-width: 767px) {
