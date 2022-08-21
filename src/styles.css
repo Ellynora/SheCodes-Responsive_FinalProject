@@ -103,7 +103,9 @@ z-index: 50;
   .header__menu {
     margin: 0px 0px 0px 25%;
   }
-  
+  .gallery-title {
+    font-size: 62px;
+  }
     h2 {
       padding-top: 55%;
       padding-bottom: 5%;
@@ -149,6 +151,9 @@ z-index: 50;
 @media (max-width: 479px) {
   .header__menu {
     margin: 0px 0px 0px 10%;
+  }
+  .gallery-title {
+    font-size: 36px;
   }
   .gallery {
     display: none;
@@ -198,7 +203,9 @@ z-index: 50;
     margin: -100px 5px 0px 5px !important;
     padding: 0px 10px 20px 10px !important;
   }
-  
+  .gallery-title {
+    font-size: 54px;
+  }
   h1 {
     font-size: 24px;
   }
