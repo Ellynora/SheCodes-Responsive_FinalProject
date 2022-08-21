@@ -51,7 +51,7 @@ html, body {
   flex-direction: column;
 }
 /* ...................................... */ 
-h2 {
+h2 > .main-block__subtitle {
   position: relative;
   width: 508px;
   height: 28px;
@@ -106,7 +106,7 @@ z-index: 50;
   .gallery-title {
     font-size: 62px;
   }
-    h2 {
+    h2 > .main-block__subtitle {
       padding-top: 55%;
       padding-bottom: 5%;
     }
@@ -139,7 +139,7 @@ z-index: 50;
  .main-block__title {
   font-size: 32px;
 }
-  h2 {
+  h2 > .main-block__subtitle {
     padding-top: 65%;
   }
   .main-block__text {
@@ -164,7 +164,7 @@ z-index: 50;
    h1 {
     padding-top: 5%;
   }
-    h2 {
+    h2 > .main-block__subtitle {
       padding-top: 65%;
     }
     .main-block__text {

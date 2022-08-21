@@ -1,0 +1,80 @@
+.aboutme-main {
+    margin-top: 7.4%;
+    display: flex;
+    align-content: stretch;
+    flex-direction: row;
+    gap: 2%;
+}
+.fluid-imag {
+    width: 35.9%;
+    height: 35.9%;
+}
+.about-content {
+    display: flex;
+    flex-flow: column;
+    align-content: flex-start;
+    gap: 3.2%;
+}
+.subtittle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 131.25%;
+    color: #F65282;
+    letter-spacing: 0.1em;
+}
+.about-title {
+    font-size: 52px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+.about-paragraf {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 187.5%;
+
+}
+.social-icons-about {
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+}
+.camera-info {
+    display: flex;
+    align-items: center;
+    background-color: #202020;
+    padding: 2%;
+    margin-right: 55%;
+
+}
+.camera-text {
+    padding: 3%;
+}
+.photos-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media (max-width: 992px) {
+    
+    ._item3 {
+        order: 2 !important;
+    }
+}
+@media (max-width: 767px) {
+    .fluid-imag {
+        display: none;
+    }
+    .about-content{
+        gap: 2%;
+        align-items: center;
+    }
+    
+}
+@media (max-width: 479px) {
+    .fluid-imag {
+        display: none;
+    }
+}
