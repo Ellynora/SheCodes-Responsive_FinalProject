@@ -61,7 +61,7 @@ h2 {
   letter-spacing: 10%;
   font-weight: 700;
 }
-h1 {
+.main-block__title {
   position: relative;
   text-transform: uppercase;
   font-size: 72px;
@@ -131,8 +131,8 @@ z-index: 50;
  .gallery {
   display: none;
  }
- h1 {
-  padding-top: 5%;
+ .main-block__title {
+  font-size: 32px;
 }
   h2 {
     padding-top: 65%;
@@ -273,8 +273,12 @@ z-index: 50;
 }
 /* ............FOOTER.......................... */
 
-footer a {
+ a {
   color: #FFFFFF;
+  
+}
+a:hover {
+  color: #F65282;
 }
 .footer {
   display: flex;

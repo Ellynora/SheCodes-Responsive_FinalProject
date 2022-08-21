@@ -13,18 +13,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
-    gap: 5px;
-    width: 352.36px;
-    left: 36%;
-    top: 30%;
+    
 
 }
-._contactpage {
-    position: absolute;
-    width: 584px;
-    height: 84px;
-    top: 77px;
+._last {
+    display: grid;
+    place-items: center;
+    grid-template-rows : repeat(2, 4fr);
+    gap: 50%;
+}
+.title-contactpage {
+    position: relative;
+    height: 25%;
+    text-transform: uppercase;
+    font-size: 72px;
+    line-height: 84px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 10%;
 
 }
 .subtittle {
@@ -40,25 +46,32 @@
     line-height: 187.5%;
 }
 @media (max-width: 992px) {
+    .title-contactpage {
+        font-size: 48px;
+    }
     
-    .page_container {
-        left: 27%;
-    }
-    .page_container {
-        left: 29%;
-    }
   }
   @media (max-width: 767px) {
-    
-   ._contactpage {
-    left: 38%;
-   }
-   .page_container {
-    left: 25%;
-}
+    .span-rights {
+        display: none;
+    }
+  .title-contactpage {
+    font-size: 32px;
+  }
+  ._last {
+    gap: 30%;
+  }
   }
   @media (max-width: 479px) {
-    
+    .span-rights {
+        display: none;
+    }
+    ._last {
+        gap: 20%;
+    }
+    .title-contactpage {
+        font-size: 28px;
+    }
   }
 
 /* ........FOOTER....................... */
@@ -72,3 +85,4 @@
     a:hover {
         color: #F65282;
     }
+    
