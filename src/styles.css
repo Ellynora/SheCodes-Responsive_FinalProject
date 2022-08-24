@@ -178,8 +178,9 @@ z-index: 50;
 }
 .menu__list {
   padding-top: 20px;
-  flex-wrap: wrap;
   display: flex;
+  flex-wrap: wrap;
+
 }
 
 .menu__item:not(:last-child) {
@@ -307,7 +308,7 @@ a:hover {
   display: flex; 
   justify-content: space-around;
   align-items: center;
-  gap: 20%;
+  gap: 50%;
 }
 .footer__logo {
   width: 153.36px ;
