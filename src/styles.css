@@ -32,7 +32,9 @@ html, body {
   font-weight: 400;
   color: #ffff;
   background-color: #1B1B1B;
+  scrollbar-color: #fff;
 }
+
 ._ibg {
   position: relative;
 }
@@ -235,6 +237,7 @@ html, body {
   width: 35.9%;
   height: 35.9%;
 }
+
 .about-content {
   display: flex;
   flex-flow: column;
@@ -295,12 +298,12 @@ html, body {
 }
 .photos-about {
   display: flex;
-  flex-direction: row;
-  flex-wrap: initial;
-  margin: 8% 2%;
+  flex-flow: row nowrap;
+  justify-content: stretch;
 }
 .img-fluid {
-  width: 33.2% !important;
+  margin: 10px;
+  padding: 10px;
 }
 /* ................Gallery Page................. */
 ._gallery-page {
