@@ -18,27 +18,30 @@
 <body>
    <div class="wrapper">
     <header class="header">
-        <div class="header__container _container"> 
-           <a href="/index.html" class="header__logo">
-            <img src="img/She Codes.png" alt="SheCodes Logo" class="fluid-image ps-5">
-           </a> 
-           <nav class="header__menu menu">
-            <ul class="menu__list">
-                <li class="menu__item">
-                    <a href="/" class="menu__link">Home</a>
-                </li>
-                <li class="menu__item">
-                    <a href="/about.html" class="menu__link">About</a>
-                </li>
-                <li class="menu__item">
-                    <a href="/gallery.html" class="menu__link">Gallery</a>
-                </li>
-                <li class="menu__item">
-                    <a href="/contact.html" class="menu__link">Contact</a>
-                </li>
-            </ul>
-           </nav>
-        </div>
+            <section class="top-nav">
+                <div>
+                    <a href="/index.html" class="header__logo">
+                    <img src="img/She Codes.png" alt="SheCodes Logo" class="fluid-image ps-5">
+                </a> </div>
+             <input id="menu-toggle" type="checkbox" />
+             <label class="menu-button-container" for="menu-toggle">
+                <div class="menu-button"></div>
+             </label> 
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="/" class="menu__link">Home</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="/about.html" class="menu__link">About</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="/gallery.html" class="menu__link">Gallery</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="/contact.html" class="menu__link">Contact</a>
+                    </li>
+                </ul>
+            </section>
     </header>
     <main class="page">
         <div class="page__main-block main-block">
