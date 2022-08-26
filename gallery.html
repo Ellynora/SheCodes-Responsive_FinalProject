@@ -15,13 +15,17 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="header _second-header">
-            <div class="header__container _container"> 
-               <a href="/index.html" class="header__logo">
-                <img src="img/She Codes.png" alt="SheCodes Logo" class="fluid-image ps-5">
-               </a> 
-               <nav class="header__menu menu">
-                <ul class="menu__list">
+        <header class="header">
+            <section class="top-nav">
+                <div>
+                    <a href="/index.html" class="header__logo">
+                    <img src="img/She Codes.png" alt="SheCodes Logo" class="fluid-image ps-5">
+                </a> </div>
+             <input id="menu-toggle" type="checkbox" />
+             <label class="menu-button-container" for="menu-toggle">
+                <div class="menu-button"></div>
+             </label> 
+                <ul class="menu">
                     <li class="menu__item">
                         <a href="/" class="menu__link">Home</a>
                     </li>
@@ -35,12 +39,11 @@
                         <a href="/contact.html" class="menu__link">Contact</a>
                     </li>
                 </ul>
-               </nav>
-            </div>
-        </header>
-        <main class="page _gallery-page">
+            </section>
+    </header>
+        <main class="page">
             <h1 class="gallery-title">Gallery</h1>
-            <section class="gallery _second">
+            <section class="gallery-page ">
                 <div class=" photos">
                     <img src="img/Rectangle 107 (1).png" alt="car img" class="img-fluid my-3 pb-5">
                     <img src="img/Rectangle 108.png" alt="gallery photo" class="img-fluid my-3 pb-5">
