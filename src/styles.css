@@ -181,7 +181,7 @@ html, body {
   background-repeat: no-repeat;
   background-size: 100%;
   padding-top: 117px;
-  padding-bottom: 200px;
+  padding-bottom: 5%;
 }
 .main-block__body {
   z-index: 2;
@@ -248,7 +248,7 @@ html, body {
 }
 
 .about-content {
-  padding-top: 10px;
+  padding-top: 5%;
   display: flex;
   flex-flow: column;
   align-content: flex-start;
@@ -332,6 +332,7 @@ html, body {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   text-align: center;
+  margin-top: 5%;
 }
 ._second-header {
   background-color: #202020;
@@ -408,14 +409,18 @@ a:hover {
   .title-contactpage {
     font-size: 48px;
 }
-    h2 > .main-block__subtitle {
+    .main-block__subtitle {
       padding-top: 55%;
       padding-bottom: 5%;
     }
     .main-block__text {
       padding-top: 5%;
-      padding-bottom: 25%;
+      padding-bottom: 15%;
     }
+    .aboutme-main {
+      margin-top: 10%;
+    }
+   
     .footer__logo {
       width: 70% !important;
       height: 70% !important;
@@ -429,8 +434,20 @@ a:hover {
 .camera-info {
     margin-right: 17%;
 }
+.photos-main {
+  display: none;
+}
+.gallery-title {
+  margin-top: 5%;
+}
+._item1 {
+  display: none;
+}
 }
 @media (max-width: 767px) {
+  .aboutme-main {
+    margin-top: 10%;
+  }
   .span-rights {
     display: none;
 }
@@ -492,11 +509,14 @@ gap: 30%;
  ._second {
   display: contents;
  }
+ .main-block__container {
+  margin-top: 15%;
+ }
  .main-block__title {
   font-size: 32px;
 }
-  h2 > .main-block__subtitle {
-    padding-top: 65%;
+  .main-block__subtitle {
+    padding-top: 15%;
   }
   .main-block__text {
     padding-top: 5%;
@@ -538,19 +558,29 @@ gap: 30%;
 .about-content {
   position: relative;
   display: flex;
-  margin: 5% 0% 0.3% 2%;
+  margin: 15% 0% 0.3% 2%;
   gap: 25px;
 }
 .about-paragraf {
   font-size: 16px;
   margin: 0 auto;
 }
-
+.gallery-title {
+ margin-top: 15%;
+}
 .camera-info {
   margin-right: 2% !important;
 }
+._item1,
+._item2 {
+  display: none;
+}
 }
 @media (max-width: 479px) {
+  ._item1,
+  ._item2 {
+    display: none;
+  }
   .span-rights {
     display: none;
 }
@@ -572,8 +602,11 @@ gap: 30%;
    h1 {
     padding-top: 5%;
   }
-    h2 > .main-block__subtitle {
-      padding-top: 65%;
+  .main-block__container {
+    margin-top: 19%;
+   }
+    .main-block__subtitle {
+      padding-top: 3%;
     }
     .main-block__text {
       padding-top: 5%;
