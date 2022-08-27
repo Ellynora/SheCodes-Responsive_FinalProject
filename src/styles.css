@@ -434,15 +434,15 @@ a:hover {
 .camera-info {
     margin-right: 17%;
 }
-.photos-main {
+.photos-main,
+._item1, 
+._index-top {
   display: none;
 }
 .gallery-title {
   margin-top: 5%;
 }
-._item1 {
-  display: none;
-}
+
 }
 @media (max-width: 767px) {
   .aboutme-main {
@@ -572,7 +572,8 @@ gap: 30%;
   margin-right: 2% !important;
 }
 ._item1,
-._item2 {
+._item2,
+._index-top {
   display: none;
 }
 }
